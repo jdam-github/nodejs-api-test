@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-api-test",
+  "version": "1.0.0",
+  "description": "Node Js API test with jest and supertest ",
+  "keywords": [
+    "API",
+    "Jest",
+    "suppertest",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/jdam-github/nodejs-api-test#readme",
+  "bugs": {
+    "url": "https://github.com/jdam-github/nodejs-api-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdam-github/nodejs-api-test.git"
+  },
+  "license": "ISC",
+  "author": "Jean Damour",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "lru-cache": "^11.0.2",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "babel-jest": "^29.7.0"
+  }
+}
